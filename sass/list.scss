@@ -1,0 +1,100 @@
+@import 'reset';
+@import 'header';
+@import 'footer';
+.content{background-color:#89e7e9;}
+.banner{
+	img{width:100%;}
+}
+.contains{
+	width: 1000px;
+    overflow: hidden;
+    margin: 0px auto;
+    font-family: 'Microsoft YaHei';
+    zoom: 1;
+    .secSkillE-main {
+	    margin-top: 10px;
+	    .goodsList{
+	    	ul{
+	    		clear: both;
+			    width: 1080px;
+			    padding-bottom: 10px;
+			    li{
+			    	zoom: 1;
+				    position: relative;
+				    width: 242px;
+				    float: left;
+				    background: #fff;
+				    margin: 0 10px 12px 0;
+				    /* transition: all 0.3s linear; */
+				    -webkit-transition: all 0.3s linear;
+			    }
+			    li:hover{
+			    	transform: translateY(-8px);
+				    -webkit-transform: translateY(-8px);
+				    z-index: 8;
+			    }
+	    	}
+	    }
+	   .list-con { overflow: hidden;}
+   
+		.goods-box {height: 286px;}
+    	.goods-pic {
+		    height: 230px;
+		    overflow: hidden;
+		    .onloadingBg {
+			    width: 240px;
+			    height: 230px;
+			}
+		}
+		.saleOut-tip {
+		    width: 92px;
+		    position: absolute;
+		    left: 50%;
+		    top: 50%;
+		    margin-top: -46px;
+		    margin-left: -46px;
+		    display:none;
+		}
+		.goods-info {
+		    background: #FBFAFA;
+		    padding: 10px 15px;
+		    color: #383838;
+		    height: 36px;
+		    a{
+		    	display: block;
+    			color: #ff630a;
+		    }
+		    p {
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			    -o-text-overflow: ellipsis;
+			    white-space: nowrap;
+			}
+		}
+		.price-box {
+		    background: url(img/BtnBg_light.png) repeat;
+			.price {
+			    color: #fff;
+			    padding-left: 14px;
+			    line-height: 38px;
+			    font: 18px/40px Arial,Verdana,"\5b8b\4f53";
+			    i {
+				    font-size: 15px;
+				    font-style: normal;
+				    font-family: Verdana;
+				    padding-right: 2px;
+				}
+			}
+			span {
+			    display: block;
+			    height: 39px;
+			    line-height: 39px;
+			}
+			.fl{float:left}
+		}
+		.clearfix {
+		    zoom: 1;
+		    display: block;
+		}
+	}
+}

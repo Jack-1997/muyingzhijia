@@ -1,0 +1,273 @@
+@import 'reset';
+@import 'header';
+@import '../lib/new.carousel/new.carousel';
+@import 'footer';
+header{
+	background-color:#F5F4F6;
+}
+.outerbox{
+	background: url(./img/outerBg.png) top no-repeat;
+	.banner{height:350px;}
+	.adtop{margin:20px auto;
+		display:flex;
+		justify-content:space-between;
+		a:hover img{border:1px solid #ff5c00;display:block;box-sizing:border-box;}
+	}
+	.titleImg {
+	    margin: 0 31px;
+	    background: url(./img/newIndexHeader.png) no-repeat;
+	    width: 119px;
+	    height: 48px;
+	}
+	.specialProduct{
+		.hotfloor{
+			.span1{
+				height: 1px;
+				width: 450px;
+			    background: #ccc;
+			    vertical-align: 9px;
+			}
+			.span3 {
+			    background-position: 0 -109px;
+			}
+			.inblock{display:inline-block;}
+		}
+		.sgoodlist{ 
+			.sitem{
+				width:1090px;
+				height:296px;
+				 margin-bottom: 20px;
+				 border-radius: 10px;
+				 background-color:#fff;
+			    img{
+			    	width:598px;
+			    	height:296px;
+			    	border-radius: 10px;
+			    }
+			    .rt{
+			    	width:458px;height:284px;
+			    	margin: 10px 10px 10px 20px;
+				    position: relative;
+				    width: 458px;
+					background-color:#fff;
+			    }
+			    .site-hot-row-two {
+				    padding-top: 5px;
+				    height: 32px;
+				    border-bottom: 1px solid #e5e5e5;
+				    font-size: 20px;
+				    font-weight: 700;
+				    font-family: "微软雅黑";
+				    color: #666;
+				    a:hover{color:#ff5c00;}
+				}
+				.site-hot-row-three {
+					height:138px;
+				    padding-top: 8px;
+				    line-height: 24px;
+				    font-size: 15px;
+				    font-family: "微软雅黑";
+				    color: #666;
+				    margin-bottom: 6px;
+				    height: 70px;
+				    text-overflow: ellipsis;
+				    overflow: hidden;
+				}
+				p{font-size:32px;}
+				b:nth-child(1){
+					font-size: 18px;
+				    font-weight: bold;
+				    vertical-align: 2px;
+				    margin-right: 3px;
+				}
+				b:nth-child(2){
+					font-size: 16px;
+				    font-weight: bold;
+				    vertical-align: 3px;
+				    margin-left: 3px;
+				}
+				.site-hot-row-four {
+				    position: relative;
+				    margin-top: 70px;
+				    overflow:hidden;
+				}
+				.viewbtn{
+					position: absolute;
+				    right: 0px;
+				    top: 0px;
+				    border-radius: 200px;
+				    background-color: #ff5c00;
+				    font-family: "微软雅黑";
+				    font-size: 17px;
+				    color: #fff;
+				    height: 33px;
+				    display: block;
+				    height: 44px;
+				    width: 44px;
+				    text-align: center;
+				    line-height: 21px;
+				    padding: 8px;
+				    font-weight: bold;
+				}
+				.fl{float:left}
+				.price{
+					color: #df2943;
+				    font-family: "微软雅黑";
+				    font-size: 20px;
+				    line-height: 40px;
+				    float: left;
+				    margin-right: 20px;
+				    margin-top: 15px;
+				    font-weight: bold;
+				}
+			}
+			// .sitem:hover{border:1px solid #ff5c00;box-sizing:border-box;}
+		}
+	}
+
+	.site-floor-dt-fl {
+		margin: 20px 0 10px;
+		span{display:inline-block;}
+		.span1 {
+		    height: 1px;
+		    width: 450px;
+		    background: #ccc;
+		    vertical-align: 9px;
+
+		}
+		.span2 {  background-position: 0 -165px; }
+	}
+
+    .specialProduct{
+		.hotfloor{
+			.span1{
+				height: 1px;
+				width: 450px;
+			    background: #ccc;
+			    vertical-align: 9px;
+			}
+			.span3 {
+			    background-position: 0 -154px;
+			}
+			.inblock{display:inline-block;}
+		}	
+	}
+	.hgoodslist{ 
+				.sitem{
+					width:1090px;
+					height:296px;
+					 margin-bottom: 20px;
+					 border-radius: 10px;
+					 background-color:#fff;
+				    img{
+				    	width:598px;
+				    	height:296px;
+				    	border-radius: 10px;
+				    }
+				    .rt{
+				    	width:458px;height:284px;
+				    	margin: 10px 10px 10px 20px;
+					    position: relative;
+					    width: 458px;
+						background-color:#fff;
+				    }
+				    .site-hot-row-two {
+					    padding-top: 5px;
+					    height: 32px;
+					    border-bottom: 1px solid #e5e5e5;
+					    font-size: 20px;
+					    font-weight: 700;
+					    font-family: "微软雅黑";
+					    color: #666;
+					    a:hover{color:#ff5c00;}
+					}
+					.site-hot-row-three {
+						height:138px;
+					    padding-top: 8px;
+					    line-height: 24px;
+					    font-size: 15px;
+					    font-family: "微软雅黑";
+					    color: #666;
+					    margin-bottom: 6px;
+					    height: 70px;
+					    text-overflow: ellipsis;
+					    overflow: hidden;
+					}
+					p{font-size:32px;}
+					b:nth-child(1){
+						font-size: 18px;
+					    font-weight: bold;
+					    vertical-align: 2px;
+					    margin-right: 3px;
+					}
+					b:nth-child(2){
+						font-size: 16px;
+					    font-weight: bold;
+					    vertical-align: 3px;
+					    margin-left: 3px;
+					}
+					.site-hot-row-four {
+					    position: relative;
+					    margin-top: 70px;
+					    overflow:hidden;
+					}
+					.viewbtn{
+						position: absolute;
+					    right: 0px;
+					    top: 0px;
+					    border-radius: 200px;
+					    background-color: #ff5c00;
+					    font-family: "微软雅黑";
+					    font-size: 17px;
+					    color: #fff;
+					    height: 33px;
+					    display: block;
+					    height: 44px;
+					    width: 44px;
+					    text-align: center;
+					    line-height: 21px;
+					    padding: 8px;
+					    font-weight: bold;
+					}
+					.fl{float:left}
+					.price{
+						color: #df2943;
+					    font-family: "微软雅黑";
+					    font-size: 20px;
+					    line-height: 40px;
+					    float: left;
+					    margin-right: 20px;
+					    margin-top: 15px;
+					    font-weight: bold;
+					}
+				}
+				
+	}
+
+	.uiBrandAreaBox{
+		.span3 {background-position: 0 -54px;}
+		.ui-brand-box {
+		    overflow: hidden;
+		    position: relative;
+		}	
+		.ui-brand-box ul li a {
+		    background: #fff;
+		    float: left;
+		    margin-left: -1px;
+		    margin-top: -1px;
+		    text-align: center;
+		    border: 1px solid #ccc;
+		    width: 179px;
+		    height: 80px;
+		}    
+		.ui-brand-box ul li a.big {
+		    width:367px;height:161px;
+		}    		
+		.ui-brand-box ul li .big img {
+			    display: block;
+			    width: 367px;
+			    height: 161px;
+		}
+	}
+
+}

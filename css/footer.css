@@ -1,0 +1,69 @@
+.sprite-icon { background-image: url(./img/sprite215new.png); background-repeat: no-repeat; display: inline-block; overflow: hidden; float: left; zoom: 1; }
+
+#footer a:hover { color: #ff5c00 !important; }
+
+#footer .mall-ensure { height: 105px; background-color: #ff5c00; color: #FFF; box-shadow: 0px -4px 12px rgba(207, 207, 207, 0.75); border-bottom: 1px solid #ff5c00; }
+
+#footer .mall-ensure .mall-ensure-bd-cen ul li { float: left; font-family: "Microsoft YaHei"; }
+
+#footer .mall-ensure .mall-ensure-bd-cen dl { padding-left: 25px; padding-top: 30px; width: 285px; }
+
+#footer .mall-ensure .mall-ensure-bd-cen dt { position: relative; }
+
+#footer .mall-ensure .mall-ensure-bd-cen dt h2 { font-size: 24px; font-weight: bold; float: left; }
+
+#footer .mall-ensure .mall-ensure-bd-cen dt i { margin-right: 8px; float: left; position: relative; left: 0; top: 2px; }
+
+#footer .mall-ensure .mall-ensure-bd-cen dt .icon-quality { width: 33px; height: 31px; background-position: -140px 0px; }
+
+#footer .mall-ensure .mall-ensure-bd-cen dt .icon-convenient { width: 38px; height: 27px; background-position: -140px -40px; }
+
+#footer .mall-ensure .mall-ensure-bd-cen dt .icon-professional { width: 34px; height: 34px; background-position: -140px -80px; }
+
+#footer .mall-ensure .mall-ensure-bd-cen dt .icon-sweet { width: 30px; height: 27px; background-position: -140px -120px; }
+
+#footer .mall-ensure .mall-ensure-bd-cen dd { font-size: 14px; font-weight: bold; float: right; margin-right: 35px; _display: inline-block; }
+
+#footer .mall-desc { background-color: #FFF; padding-top: 20px; border-bottom: 1px solid #E0E0E0; padding-bottom: 15px; }
+
+#footer .mall-desc-bd-cen { padding-left: 25px; }
+
+#footer .mall-ensure-bd-cen, #footer .mall-desc, #footer .tfc_nav-footer, #footer .tfc_footer { width: 100%; }
+
+#footer .mall-ensure-bd, #footer .mall-desc-bd, #footer .tfc_footer-bd, #footer .tfc_icp img { margin: 0 auto; }
+
+#footer .mall-desc-bd dl { float: left; width: 176px; }
+
+#footer .mall-desc-bd dl dd { padding: 4px 0; padding-left: 30px; }
+
+#footer .mall-desc-bd dl dt { font-size: 14px; padding-top: 6px; padding-bottom: 4px; font-family: "Microsoft YaHei"; position: relative; padding-left: 30px; }
+
+#footer .mall-desc-bd dl dt i { position: absolute; top: 0; left: 0; width: 26px; height: 26px; }
+
+#footer .mall-desc-bd dl dt .icon-guide { background-position: -90px 0; }
+
+#footer .mall-desc-bd dl dt .icon-pay { background-position: -90px -40px; }
+
+#footer .mall-desc-bd dl dt .icon-distribution { background-position: -90px -80px; }
+
+#footer .mall-desc-bd dl dt .icon-service { background-position: -90px -120px; }
+
+#footer .mall-desc-bd dl dt .icon-about { background-position: -90px -160px; }
+
+#footer .mall-desc-bd dl dt .icon-contactUs { background-position: -90px -195px; }
+
+#footer .weixin-logo { float: left; width: 110px; }
+
+#footer .weixin-logo .weixin-span { margin: 2px 6px 0; }
+
+#footer .weixin-logo span { float: left; display: inline-block; }
+
+#footer .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+#footer .tfc_footer { background-color: #ebebeb; }
+
+#footer .tfc_footer .tfc_footer-bd { padding-top: 15px; line-height: 24px; text-align: center; }
+
+#footer .tfc_footer .tfc_nav-footer, #footer .tfc_footer .tfc_nav-footer li a, #footer .tfc_footer .tfc_copyright { color: #999; }
+
+#footer .tfc_nav-footer li { display: inline; margin: 0 5px; }

@@ -1,0 +1,33 @@
+body, ul, li, span, p, b, a,h1,h2,h3,h4,h5,h6,div,button{
+  margin: 0;
+  padding: 0;
+}
+
+button,input:focus{outline:none}
+
+body {
+  background-color: #E9E9E9;
+  font-size: 12px;
+}
+.lt{float:left;}
+.rt{float:right;}
+
+img {
+    border: 0;
+    display:block;
+}
+.wrap{width:1090px;margin:0 auto;}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+i, cite, em, var, address, dfn {
+    font-style: normal;
+}

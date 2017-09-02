@@ -1,0 +1,306 @@
+
+#hd{
+	a:hover{color:#ff5c00}
+	background-color:#F5F4F6;
+	.hdtopbg{
+		width:100%;
+		height:42px;
+		display:block;
+		background: url(http://static.boodoll.cn/mall/v16//images/index/top-navbg.png) repeat-x;
+	}
+
+	.hd-top{
+		
+	    height: 42px;
+	    z-index: 100;
+	    position: relative;
+		 a{color:#666;}
+		 a:hover{color:#ff5c00;}
+		height:42px;
+    	position: relative;
+    	.header-quick-menu{
+    		padding-top: 5px;
+    		height: 37px;
+    		display:block;
+
+    	}
+		.lt>li{
+			float:left;
+			padding:0 20px;
+		    position: relative;
+		    height: 36px;
+		    line-height: 36px;
+		    border-right: 1px solid #e7e7e7;
+		    display: inline-block;
+		    font-weight:600;
+		    font-size:14px;
+		}
+		li.curpage{
+    			border: 1px solid #cccccc;
+			    border-bottom: none;
+			    -moz-border-radius: 2px;
+			    -webkit-border-radius: 2px;
+			    -o-border-radius: 2px;
+			    -ms-border-radius: 2px;
+			    border-radius: 2px;
+			    background-color: #ffffff;
+			    a{color: #FF5c00;}
+    	}
+    	li.phonebox{
+    		padding: 0 10px;
+    		position:relative;
+			i{
+				margin-right: 12px;
+			    position: relative;
+			    left: 0;
+			}
+    	}
+    	.phonehidediv {
+		    position: absolute;
+		    top: 35px;
+		    border: 1px solid #FF9900;
+		    background-color: #fff;
+		    left: 10px;
+		    display: none;
+		}
+		.phonediv {
+		    padding: 0 10px;
+		    z-index: 20;
+		}
+    	.rt{
+    		position: absolute;
+		    right: 0;
+		    top: 0;
+		    height: 32px;
+		    line-height: 32px;
+		    z-index: 110;
+		    margin-top: 6px;
+		    display:block;
+
+			li{
+				text-align:center;
+				display: inline-block;
+			    padding: 0 8px;
+			    position: relative;
+			    float: left;
+
+			    b{
+			    	cursor: pointer;
+				    -webkit-transition: all .2s ease;
+				    transition: all .2s ease;
+				    width: 0;
+				    line-height: 0;
+				    height: 0;
+				    font-size: 0;
+				    border-width: 4px;
+				    border-style: solid dashed dashed;
+				    border-color: #666666 transparent transparent;
+				    position: relative;
+				    left: 3px;
+				    overflow: hidden;
+				    display: inline-block;
+				    zoom: 1;
+			    }
+			}
+			.ssn_hover_div {
+			    height: 28px;
+			    line-height: 32px !important;
+			    text-align: center;
+			    z-index: 120;
+			    width:66px;
+			    position: relative;
+			    overflow: hidden;
+			}
+			.Theader_down01{
+				background-color: #ffffff;
+			    position: absolute;
+			    border: 1px solid #FF9900;
+			    text-align: left;
+			    padding: 4px 0px 2px;
+			    width: 81px;
+			    top: 28px;
+			    left: 0px;
+			    line-height: 21px;
+			    display: none;
+			    z-index: 20;
+			    a{text-align:left;display:block;line-height:20px;}
+			}
+			.ssn-separator {
+							    padding: 0;
+							    width: 0;
+							    vertical-align: top;
+							    margin: 0 3px 0 1px;
+							    top: 9px;
+							    line-height: 14px;
+							    left: 0;
+							    height: 14px;
+							    font-size: 0;
+							    display: inline-block;
+							    border-left: 1px solid #cccccc;
+							}
+			#loginBtn,#regBtn{color:#FF5c00 !important;}
+
+    	}
+
+		.ssn-login-info {
+		    color: #666666;
+		}
+	}
+	.hdbottom{
+		overflow:hidden;
+		margin: 20px auto 20px !important;
+		.logo{
+			display: block;
+		    float: left;
+		    position: relative;
+		    margin-top: 12px;
+		}
+		.ui-reason {
+		    float: left;
+		    margin-left: 90px;
+		    overflow: hidden;
+		    margin-top: 7px;
+		    a{
+		    	color: #666;
+			    display: inline-block;
+			    vertical-align: middle;
+			    text-align: center;
+			    margin: 0 15px;
+			    p {
+				    color: rgb(112, 112, 112);
+				    font-family: 宋体;
+				    margin-top: 5px;
+				}
+			    div {
+				    background: url(./img/top_bar2.png) no-repeat;
+				    width: 40px;
+				    height: 40px;
+				    margin: 0 auto;
+				}
+				.zheng {background-position: -86px -103px;}
+    			.jian {  background-position: -43px -103px;}
+    			.qi {  background-position: -0px -103px;}
+
+
+  
+		    }
+		}
+		.rt{
+			margin-top:10px;
+			height:61px;
+			.mallSearch{
+				width: 492px;
+				height:61px;
+				.searchbox{
+					width:490px;
+					
+					form{
+						
+					    font-size: 12px;
+					  	height:37px;
+					    width:490px;
+					    height:37px;
+					}
+					.search{
+						margin-left:2px;
+						width:420px;
+						height: 34px;
+					    line-height: 34px;
+					    float: left;
+					    font-size: 12px;
+					    position: relative;
+					    border:1px solid #ff5c00;
+					}
+					.searchBtn{
+						 
+						width:66px;
+						height:38px;
+						float:right;
+						border:1px solid #ff5c00;
+						top:0;
+						left:0;
+						background: url(./img/newIndexIcon.png) 15px -78px no-repeat;background-color: #ff5c00;
+					}
+				}
+				.hot_key{
+					height:14px;
+					li{
+						float:left;
+						color:#999;
+						a{color:#999;}
+						a:hover{color:#ff5c00;}
+					}
+					.active_hot a{color:#ff5c00;}
+				}
+			}
+		}
+	}
+	.navbg{
+		margin-top: 25px;
+	    background: #fff;
+	    border-top: 1px solid #ccc;
+	    position: relative;
+	    width:100%;
+	}
+	.navbox{
+		height:35px;
+		background-color:#fff;
+		font-size:14px;
+		line-height:35px;
+		.list li{
+			display:block;
+			float:left;
+			padding: 0 20px;
+		    line-height: 35px;
+		    position: relative;
+		    .haiT-child{
+		    	display: none;
+			    margin-left: -21px;
+			    margin-right: -1px;
+			    padding: 0 20px 0 20px;
+			    position: absolute;
+			    z-index: 999;
+			    background-color: #fff;
+			    border-bottom: 1px solid #ff9900;
+			    border-right: 1px solid #ff9900;
+			    border-left: 1px solid #ff9900;
+			}
+		}
+		.hovernow{
+			margin:0 1px;
+		}
+		// .hovernow:hover{border-right:1px solid #ff9900;border-left:1px solid #ff9900;}
+		// .hovernow:hover .haiT-child{display:block;}
+		.navlist a{
+			position: relative;
+		    font-weight: bold;
+		    display: block;
+		    height: 34px;
+		    width: 140px;
+		    text-indent: 17px;
+		    font-size: 14px;
+		    color: #ff5c00;
+		    line-height: 35px;
+		    border: 1px solid #fff;
+		    border-bottom: none;
+		}
+		.navlist i{
+			position: absolute;
+		    top: 15px;
+		    right: 20px;
+		    background: url(./img/top_bar2.png) no-repeat;
+		    background-position: -110px -65px;
+		    width: 9px;
+		    height: 6px;
+		}
+	}
+	.navline{
+		width: 100%;
+	    height: 26px;
+	    position: absolute;
+	    top: 34px;
+	    z-index: 2;
+	    margin-top: 1px;
+	    background: url(./img/nav_bottom_bg.png) repeat-x;
+	}
+}
